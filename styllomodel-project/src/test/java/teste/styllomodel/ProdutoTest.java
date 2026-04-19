@@ -9,7 +9,7 @@ public class ProdutoTest {
     @Test
     public void testCriacaoProduto() {
         Produto p = new Produto("Camiseta", 50.00, 10);
-        assertEquals(50.00, p.getPreco(), 0.01); // 0.01 é a margem de erro para doubles
+        assertEquals(50.00, p.getPreco(), 0.01);
         assertEquals(10, p.getEstoque());
     }
 
